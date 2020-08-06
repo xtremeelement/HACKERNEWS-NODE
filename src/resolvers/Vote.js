@@ -1,6 +1,6 @@
 function link(parent, args, context){
     return context.prisma.vote.findOne({
-        whre: {
+        where: {
             id: parent.id
         }
     })
